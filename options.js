@@ -11,7 +11,7 @@ const requestOptions = {
     }
   };
 
-function getAndPrintHTMLChunks (options) {
+function getAndPrintHTML (options) {
     
 https.get(options, function(response){
     var body = ''
@@ -28,4 +28,4 @@ https.get(options, function(response){
     })
   })
   }
-  getAndPrintHTMLChunks(requestOptions.option2)
+  getAndPrintHTML(requestOptions.option2)
