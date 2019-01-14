@@ -8,7 +8,7 @@ var requestOptions = {
 function getAndPrintHTMLChunks () {
     
 https.get(requestOptions, function(response){
-    var body = 'Trent'
+    var body = ''
     response.on('error', function (err){
         console.log(`This is your error: ${err}`)
     })
